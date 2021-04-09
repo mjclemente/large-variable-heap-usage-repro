@@ -7,6 +7,7 @@ The file used to demonstrate the issue is about 38.9 MB. It's formatted as JSON,
 ```cfc
 filePath = expandPath('./history.json');
 content = fileRead( filePath );
+writeOutput(content);
 ```
 
 Just reading this variable increases the heap from about 54mb to about 370mb. If the variable is read and output, the heap increases to about 600mb - more than 15x the size of the variable.
