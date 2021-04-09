@@ -3,7 +3,7 @@
     "cfengine": "lucee@5.3.7+48"
   },
   "jvm": {
-    "heapSize": 1536,
+    "heapSize": 700,
     "javaVersion": "openjdk11_jre_x64_mac_hotspot_jdk-11.0.10+9",
     "args": "-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=./heapdump.hprof"
   }
